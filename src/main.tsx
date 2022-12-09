@@ -1,18 +1,17 @@
-import React from 'react';
-import ReactDOM from 'react-dom/client';
-import App from './App';
-import { HashRouter } from 'react-router-dom';
-import { HausThemeProvider } from '@daohaus/ui';
-import { HausConnectProvider } from '@daohaus/connect';
-import { Routes } from './Routes';
+import React from "react";
+import ReactDOM from "react-dom/client";
+import { HashRouter } from "react-router-dom";
+import { HausThemeProvider } from "@daohaus/ui";
+import { Routes } from "./Routes";
+import { SearchContextProvider } from "./contexts/SearchContext";
 
-ReactDOM.createRoot(document.getElementById('root') as HTMLElement).render(
+ReactDOM.createRoot(document.getElementById("root") as HTMLElement).render(
   <React.StrictMode>
     <HashRouter>
       <HausThemeProvider>
-        <HausConnectProvider>
+        <SearchContextProvider>
           <Routes />
-        </HausConnectProvider>
+        </SearchContextProvider>
       </HausThemeProvider>
     </HashRouter>
   </React.StrictMode>
