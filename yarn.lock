@@ -1156,33 +1156,33 @@
     "@babel/helper-validator-identifier" "^7.19.1"
     to-fast-properties "^2.0.0"
 
-"@daohaus/data-fetch-utils@0.1.0":
-  version "0.1.0"
-  resolved "https://registry.yarnpkg.com/@daohaus/data-fetch-utils/-/data-fetch-utils-0.1.0.tgz#fcd1865d1336f5c8e99afc90983a54ed2ac613d4"
-  integrity sha512-7ApHq4jU5hsnDOQFIeizb0rDuEaDc2zTlF9xlYFTYo0EsYcMod0bhURjjJVfQsRE08WfnzqNL9vgQ6QLP3Rkeg==
+"@daohaus/data-fetch-utils@0.1.24":
+  version "0.1.24"
+  resolved "https://registry.yarnpkg.com/@daohaus/data-fetch-utils/-/data-fetch-utils-0.1.24.tgz#e14004a7394aeed815a5595f578066ec47b9db8d"
+  integrity sha512-rhJsM8klPoUHiVt3O8Tp7xXASpY4PelsJzgTX/eXwEFj6c/CH6T9hW9LaBrhWoNbbskvZ2pWMo52aWw1eptiNw==
   dependencies:
-    "@daohaus/keychain-utils" "0.1.0"
+    "@daohaus/keychain-utils" "0.1.24"
     "@graphql-typed-document-node/core" "3.1.1"
     cross-fetch "2.2.6"
     graphql "16.3.0"
     graphql-request "4.3.0"
     tslib "2.4.1"
 
-"@daohaus/keychain-utils@0.1.0":
-  version "0.1.0"
-  resolved "https://registry.yarnpkg.com/@daohaus/keychain-utils/-/keychain-utils-0.1.0.tgz#3d731afa7f3263d9b975783b9e5ed407a8a81629"
-  integrity sha512-Hx9aXqW4anQbh7+lj31muNFc+Mt0z9CIVXd0ObPH+8T7D6JuMr3QTx1GGFgTviUV5/pNH5IdbuQPB9NK8PDTtg==
+"@daohaus/keychain-utils@0.1.24":
+  version "0.1.24"
+  resolved "https://registry.yarnpkg.com/@daohaus/keychain-utils/-/keychain-utils-0.1.24.tgz#328ae4d0817e6ca3f530853d38edf31da544a629"
+  integrity sha512-W7ihPMNWakxOAD+IJxVUuE+T0fy3nsdOxqXcfxv0hSLoIElPDnzIycvtBknwsBSrfxGVb4dGiUh2HwZ7pyJbrw==
   dependencies:
     tslib "2.4.1"
 
-"@daohaus/moloch-v3-data@0.1.0":
-  version "0.1.0"
-  resolved "https://registry.yarnpkg.com/@daohaus/moloch-v3-data/-/moloch-v3-data-0.1.0.tgz#dae32a2f6cb1beaec88b94f582de71de555e8a1a"
-  integrity sha512-Qg8rYlvW1I3AL2IwKu8iZxA1/9vJRl65QmGEhZXzMD586JAX4XGKJE8h/CmpQCOglL7xdVdhUOe/TrcOOEH3zQ==
+"@daohaus/moloch-v3-data@0.1.24":
+  version "0.1.24"
+  resolved "https://registry.yarnpkg.com/@daohaus/moloch-v3-data/-/moloch-v3-data-0.1.24.tgz#e365fd9734cef6db6f0996a3deb5951afc7574fe"
+  integrity sha512-EN2ugIRRXICgf2MbGtymPwuEVfYFuw2xlWe5vxp00ZAMFIupOY5PQxC9D71vZF86eHvfm8xQJrge3y3/9t188A==
   dependencies:
-    "@daohaus/data-fetch-utils" "0.1.0"
-    "@daohaus/keychain-utils" "0.1.0"
-    "@daohaus/utils" "0.1.0"
+    "@daohaus/data-fetch-utils" "0.1.24"
+    "@daohaus/keychain-utils" "0.1.24"
+    "@daohaus/utils" "0.1.24"
     "@ethersproject/address" "5.7.0"
     "@graphql-typed-document-node/core" "3.1.1"
     cross-fetch "2.2.6"
@@ -1196,13 +1196,13 @@
     react-hook-form "7.39.1"
     tslib "2.4.1"
 
-"@daohaus/ui@0.1.0":
-  version "0.1.0"
-  resolved "https://registry.yarnpkg.com/@daohaus/ui/-/ui-0.1.0.tgz#a265f28bf38efa962eb0e58afcb8ffe698a17cfe"
-  integrity sha512-sq+bKR7xG6ANpDUYQa11CjD4dcBjUIuoUG2NjDWEo68FS4YsjNpPReRJwpSUUMzDUMKL+EwjvCREW9fKkpJCYg==
+"@daohaus/ui@0.1.24":
+  version "0.1.24"
+  resolved "https://registry.yarnpkg.com/@daohaus/ui/-/ui-0.1.24.tgz#a29643b7609ff8e42802d55e2c2e77589b843870"
+  integrity sha512-bmqsZa+YgTB71d1RTT5AuklBMHbXDIdHE4kDbXn38OgvE2JhpgSvQKF1+DgahvBZ+OB+hUF9Cgpsr3Naba8ndA==
   dependencies:
-    "@daohaus/keychain-utils" "0.1.0"
-    "@daohaus/utils" "0.1.0"
+    "@daohaus/keychain-utils" "0.1.24"
+    "@daohaus/utils" "0.1.24"
     "@radix-ui/colors" "0.1.8"
     "@radix-ui/react-accessible-icon" "1.0.1"
     "@radix-ui/react-avatar" "1.0.1"
@@ -1211,7 +1211,6 @@
     "@radix-ui/react-dialog" "1.0.2"
     "@radix-ui/react-dropdown-menu" "2.0.1"
     "@radix-ui/react-navigation-menu" "1.1.1"
-    "@radix-ui/react-popper" "1.0.1"
     "@radix-ui/react-radio-group" "1.1.0"
     "@radix-ui/react-separator" "1.0.1"
     "@radix-ui/react-switch" "1.0.1"
@@ -1227,12 +1226,12 @@
     rollup-plugin-sourcemaps "0.6.3"
     styled-components "5.3.5"
 
-"@daohaus/utils@0.1.0":
-  version "0.1.0"
-  resolved "https://registry.yarnpkg.com/@daohaus/utils/-/utils-0.1.0.tgz#386759d793c9ee04aeb90a5f0b73f1f4a913dd8d"
-  integrity sha512-GMbEyrhLh0usIDij/O6wSZItjZexR28uLEw+8yEkHwfakzP/N6b9iEQnh/+NEe83eKtOEzv7ShrmGpdVcPl0/w==
+"@daohaus/utils@0.1.24":
+  version "0.1.24"
+  resolved "https://registry.yarnpkg.com/@daohaus/utils/-/utils-0.1.24.tgz#e03304e516ddbc889d1a1346ee802d08b32abc04"
+  integrity sha512-VkAnYrem36RIstqi9MKj5IZYZhDAA9rb/O+HOQm+ywM9RCnt3bTtMyavwiJT1YcW0HPkmiY+4EvvwBonRzqizA==
   dependencies:
-    "@daohaus/keychain-utils" "0.1.0"
+    "@daohaus/keychain-utils" "0.1.24"
     date-fns "2.29.3"
     ethers "5.7.2"
     localforage "1.10.0"

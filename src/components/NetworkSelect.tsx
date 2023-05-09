@@ -23,12 +23,24 @@ export const NetworkSelect = () => {
       onChange={updateNetwork}
       options={[
         {
+          name: "Mainnet",
+          value: "0x1",
+        },
+        {
           name: "Gnosis Chain",
           value: "0x64",
         },
         {
-          name: "Mainnet",
-          value: "0x1",
+          name: "Optimism",
+          value: "0xa",
+        },
+        {
+          name: "Arbitrum",
+          value: "0xa4b1",
+        },
+        {
+          name: "Polygon",
+          value: "0x89",
         },
         {
           name: "Goerli",

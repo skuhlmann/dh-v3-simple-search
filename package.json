@@ -9,8 +9,8 @@
     "preview": "vite preview"
   },
   "dependencies": {
-    "@daohaus/moloch-v3-data": "0.1.0",
-    "@daohaus/ui": "0.1.0",
+    "@daohaus/moloch-v3-data": "0.1.24",
+    "@daohaus/ui": "0.1.24",
     "react": "^18.2.0",
     "react-dom": "^18.2.0",
     "react-router-dom": "^6.4.4"

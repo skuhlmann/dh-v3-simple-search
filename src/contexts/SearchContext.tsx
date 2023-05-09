@@ -11,12 +11,15 @@ import {
 } from "react";
 import { fetchDaosList } from "../utils/fetchHelpers";
 
-const graphApiKeys = { "0x1": import.meta.env.VITE_GRAPH_API_KEY_MAINNET };
+const graphApiKeys = {
+  "0x1": import.meta.env.VITE_GRAPH_API_KEY_MAINNET,
+  "0x64": import.meta.env.VITE_GRAPH_API_KEY_MAINNET,
+};
 
 const defaultData = {
   searchTerm: undefined,
   daoData: undefined,
-  chainId: "0x64" as ValidNetwork,
+  chainId: "0x01" as ValidNetwork,
   isLoading: false,
   setChainId: async () => {
     return;
@@ -53,7 +56,7 @@ export const SearchContextProvider = ({ children }: SearchContextProps) => {
   const [daoData, setDaoData] = useState<ListDaosQueryResDaos>();
   const [searchTerm, setSearchTerm] = useState<string | undefined>();
   const [chainId, setChainId] = useState<ValidNetwork | null | undefined>(
-    "0x64" as ValidNetwork
+    "0x01" as ValidNetwork
   );
   const [isLoading, setIsLoading] = useState<boolean>(false);
 

@@ -53,7 +53,7 @@ const SearchInput = ({
         icon={BiSearch}
         long
         id="dao-search"
-        placeholder="Search DAOs"
+        placeholder="Search by name"
         onChange={handleSearchTermChange}
         defaultValue={localSearchTerm}
         disabled={loading}
