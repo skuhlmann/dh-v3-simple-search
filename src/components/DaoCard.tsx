@@ -111,7 +111,6 @@ export const DaoCard = ({ dao }: { dao: ListDaosQueryResDaos[number] }) => {
       </div>
       <Link
         href={`https://admin.daohaus.club/#/molochv3/${chainId}/${dao.id}`}
-        linkType="external"
         target="_blank"
         rel="noreferrer"
       >
